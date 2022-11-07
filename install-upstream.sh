@@ -151,7 +151,8 @@ VMESSOBFS=$(sed ':a; N; s/[[:space:]]//g; ta' <<<"$VMESSOBFS")
 
 cat <<EOF > ./bridge-install-by-curl.log
   ## Run this command on your bridge(interanet) server:
-     
+  sudo curl -s https://raw.githubusercontent.com/devopsuser1988/v2ray-config/main/install-bridge.sh | bash -s $IP $1 $UUID
+
    ####### External Vmess connections ######
    
    ============ Diffrent vmess for diffrent ISPs.
