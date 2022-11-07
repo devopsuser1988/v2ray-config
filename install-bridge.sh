@@ -185,7 +185,8 @@ cp ./geosite.dat /usr/local/share/v2ray/geosite.dat
 cp ./geoip.dat /usr/local/share/v2ray/geoip.dat
 
 chown -R nobody /usr/local/share/v2ray/
- 
+chown -R nobody /var/log/v2ray
+
 
 systemctl daemon-reload
 systemctl enable v2ray
