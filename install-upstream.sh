@@ -167,7 +167,7 @@ cat <<EOF > ./bridge-install-by-curl.log
    security: chacha20-poly1305
    head type: none
    network: ws
-   domain: [An internal website domain like: digikala.com]
+   domain: [An internal website domain like: devopsuser.net]
    
    ======== ======== ======== ======== 
    
@@ -183,7 +183,7 @@ cat <<EOF > ./bridge-install-by-curl.log
    security: chacha20-poly1305
    network: tcp
    head type: http
-   domain: [An internal website domain like: digikala.com]
+   domain: [An internal website domain like: devopsuser.net]
 EOF
 
 cat ./bridge-install-by-curl.log
